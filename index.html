@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <img src="assets/logo-alura.png" alt="logo alura">
+        <h1>Decodificador</h1>
+    </header>
+
+    <main class="main-container">
+        <div class="main-content">
+            <div class="container-input">
+                <div class="input">
+                    <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+            </div>
+        
+            <div class="button">
+                <div class="container-btn">
+                    <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="output">
+            <img src="assets/menino com a lupa.png" alt="menino com a lupa">
+            <h2>Sua mensagem aparecerá aqui</h2>
+            <span>Digite o texto que deseja decodificar</span>
+         
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Patricia Assaf</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
